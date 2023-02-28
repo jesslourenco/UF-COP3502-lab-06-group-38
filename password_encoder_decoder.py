@@ -1,7 +1,13 @@
 # Student name: Jessica Lourenco
 
-def encode():
-    
+def encode(pwrd):
+    encrypted_pwrd = ''
+
+    for n in pwrd:
+        num = int(n) + 3
+        encrypted_pwrd += str(num)
+
+    return encrypted_pwrd
 
 def print_menu():
     print('Menu \n-------------')
@@ -26,10 +32,9 @@ def main():
         if option == 2:
             pass
 
-        if option == 3:
-            break
+    print('test', encrypted_pwrd)
 
-    exit()
+    exit() # option 3
         
 if __name__ == '__main__':
     main()

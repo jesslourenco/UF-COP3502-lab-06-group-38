@@ -4,7 +4,11 @@ def encode():
     pass
 
 def print_menu():
-    pass
+    print('Menu \n-------------')
+    print('1. Encode')
+    print('2. Decode')
+    print('3. Quit')
+
 
 def main():
     pass

@@ -1,7 +1,6 @@
-def encode():
-    pass
+# Student name: Jessica Lourenco
 
-def decode():
+def encode():
     pass
 
 def print_menu():

@@ -14,6 +14,7 @@ def print_menu():
     print('1. Encode')
     print('2. Decode')
     print('3. Quit')
+    print()
 
 
 def main():
@@ -28,11 +29,10 @@ def main():
             pwrd = input('Please enter your password to encode: ')
             encrypted_pwrd = encode(pwrd)
             print('Your password has been encoded and stored!')
+            print()
 
         if option == 2:
             pass
-
-    print('test', encrypted_pwrd)
 
     exit() # option 3
         

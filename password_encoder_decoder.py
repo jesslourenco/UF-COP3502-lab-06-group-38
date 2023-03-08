@@ -1,5 +1,4 @@
 # Student name: Jessica Lourenco
-# Student name: Edison Forero
 
 def encode(pwrd):
     encrypted_pwrd = ''
